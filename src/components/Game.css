@@ -1,0 +1,71 @@
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.start__btn {
+    width: 200px;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: transparent;
+    text-align: center;
+    outline: none;
+    border: 1px solid white;
+}
+.start__btn:hover {
+    background: rgb(116, 212, 51);
+    transition: .5s all ease;
+}
+.reset__btn {
+    width: 150px;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: transparent;
+    text-align: center;
+    outline: none;
+    border: 1px solid white;
+}
+.reset__btn:hover {
+    background: rgb(116, 212, 51);
+    transition: .5s all ease;
+}
+.board__info {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 30px;
+}
+.player__block {
+    display: flex;
+    margin-bottom: 30px;
+}
+.player__btn {
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    outline: none;
+    border: 1px solid white;
+    cursor: pointer;
+    background:rgb(218, 163, 44);
+}
+.player__btn:hover {
+    background:rgb(172, 128, 34);
+    transition: .5s all ease;
+}
+.win__table {
+    color: rgb(10, 217, 245);
+    font-size: 30px;
+}
+.win__table p:first-child {
+    color: rgb(190, 10, 245);
+}
