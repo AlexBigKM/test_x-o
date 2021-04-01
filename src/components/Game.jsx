@@ -32,16 +32,6 @@ const Game = () => {
         )
     }
 
-    const resetGame = () => {
-
-        return (
-            <button className="reset__btn" onClick={() => {
-                setBoard(Array(9).fill(null)) &&
-                setStep(9)
-            }}>Reset Game</button>
-        )
-    }
-
 
     return (
         <div className="wrapper">
